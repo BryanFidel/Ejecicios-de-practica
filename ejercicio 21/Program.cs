@@ -14,7 +14,7 @@ namespace ejercicio_21
 
                 for (int i = 0; i < numeroDePacientes; i++)
                 {
-                    double peso = PedirValor("Peso (kg): ");
+                    double peso = PedirValor("\nPeso (kg): ");
                     double altura = PedirValor("Altura (m): ");
                     double imc = CalcularIMC(peso, altura);
                     MostrarCategoriaIMC(i + 1, imc);
