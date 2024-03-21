@@ -26,7 +26,7 @@ namespace ejercicio_21
 
         static int PedirNumeroDePacientes()
         {
-            Console.WriteLine("Ingrese el número de pacientes:");
+            Console.WriteLine("\nIngrese el número de pacientes:");
             return int.Parse(Console.ReadLine());
         }
 
